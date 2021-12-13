@@ -2,11 +2,11 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="XLWinServiceAPI.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="XLSAPI_IPPort" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">8089</Value>
-    </Setting>
     <Setting Name="XLAPI_ProgramId" Type="System.String" Scope="User">
       <Value Profile="(Default)">TESTAPI</Value>
+    </Setting>
+    <Setting Name="XLSAPI_IPPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8090</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -25,18 +25,6 @@ namespace XLWinServiceAPI.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("8089")]
-        public int XLSAPI_IPPort {
-            get {
-                return ((int)(this["XLSAPI_IPPort"]));
-            }
-            set {
-                this["XLSAPI_IPPort"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("TESTAPI")]
         public string XLAPI_ProgramId {
             get {
@@ -44,6 +32,18 @@ namespace XLWinServiceAPI.Properties {
             }
             set {
                 this["XLAPI_ProgramId"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("8090")]
+        public int XLSAPI_IPPort {
+            get {
+                return ((int)(this["XLSAPI_IPPort"]));
+            }
+            set {
+                this["XLSAPI_IPPort"] = value;
             }
         }
     }
